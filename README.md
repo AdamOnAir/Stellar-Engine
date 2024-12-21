@@ -4,12 +4,11 @@ Low-level, Cross-Platform game engine written in portable C (C99).
 
 ## Features
 
-- Multiplayer (offline, online)
-- Rendering (2D, 3D)
-- OpenGL handling (context)
+- Multiplayer (offline)
+- Rendering (3D)
 - Audio
+- Lua script
 
 ## Middleware
 
-The middleware used for this project is [VDL](https://github.com/AdamOnAir/vdl). It handles OpenGL context, basic logic and low-level audio.
-
+[VDL](https://github.com/AdamOnAir/vdl) handles OpenGL context, basic logic and low-level audio.
