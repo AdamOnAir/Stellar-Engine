@@ -5,10 +5,18 @@ Low-level, Cross-Platform game engine written in portable C (C99).
 ## Features
 
 - Multiplayer (offline)
-- Rendering (3D)
+- Rendering (2D, 3D)
 - Audio
 - Lua script
 
-## Middleware
+## Supportted platforms
 
-[VDL](https://github.com/AdamOnAir/vdl) handles OpenGL context, basic logic and low-level audio.
+- Windows
+- Raspberry Pi
+- GNU/Linux
+
+### Backends
+
+- [VDL](https://github.com/AdamOnAir/vdl)
+- [miniaudio](https://miniaud.io)
+- [minilua](https://github.com/edubart/minilua)
